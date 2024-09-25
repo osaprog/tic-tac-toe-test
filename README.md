@@ -12,6 +12,15 @@
 ![Screenshot_2024-09-25_15-38-24](https://github.com/user-attachments/assets/d2b22601-6b86-4160-82aa-1922bb383b0a)
 
 
+![Screenshot_2024-09-25_15-46-56](https://github.com/user-attachments/assets/2eb940ba-7d23-4586-9bc4-140d74c9f101)
+
+
+
+![Screenshot_2024-09-25_15-47-19](https://github.com/user-attachments/assets/0390aeac-8876-4f55-832c-5e6cb7db317c)
+
+
+## Live Demo
+http://13.60.88.92/ 
 
 ## Explaination
 
