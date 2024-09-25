@@ -70,12 +70,12 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 
 ## Setup
 
-#composer install
-#npm install
-#npm run build
-#touch database/database.sqlite
-#php artisan migrate
-#php artisan test
+- ##composer install
+- ##npm install
+- ##npm run build
+- ##touch database/database.sqlite
+- ##php artisan migrate
+- ##php artisan test
 
 ## Explaination
 
