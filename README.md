@@ -65,3 +65,23 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
 # tic-tac-toe-test
+
+
+
+## Setup
+
+composer install
+npm install
+npm run build
+npm run dev
+
+php artisan test
+
+## Explaination
+
+1. This Tic Tac Toe games is build on Laravel 11, Vue.js and Inertia.js.
+2. To simplify, I have used setInterval every two seconds, but I have prepared this solution to use Pusher to notify user about the change on the other side, and to update the board.
+3. Used Sqlite to store the values of the game.
+
+
+
