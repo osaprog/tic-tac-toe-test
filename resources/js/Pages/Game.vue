@@ -28,8 +28,6 @@ export default {
         initialWinner: String,
     },
     data() {
-
-        console.log(this.initialWinner );
         return {
             board: this.initialBoard || Array(9).fill(null),
             turn: this.initialTurn || 'X',
@@ -48,7 +46,7 @@ export default {
         this.player = this.turn === 'X' ? 'X' : 'O';
 
         // Setup Pusher for real-time updates
-        this.setupPusher();
+        //this.setupPusher();
         setInterval(() => {
             window.location.href = '/';
         }, 1000); // 3 sec
