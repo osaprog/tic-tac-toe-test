@@ -25,6 +25,6 @@ http://13.60.88.92/
 ## Explaination
 
 
-- ### This Tic Tac Toe games is build on Laravel 11, Vue.js and Inertia.js.
-- ### To simplify, I have used setInterval every two seconds, but I have prepared this solution to use Pusher to notify user about the change on the other side, and to update the board.
-- ### Used Sqlite to store the values of the game.
+- ### This Tic Tac Toe game is built on Laravel 11, Vue.js and Inertia.js.
+- ### To simplify, I have used setInterval every two seconds, but I have prepared this solution to use Pusher to notify user about the change on the other side, and make real time updae on the board
+- ### I used Sqlite to store the values of the board.
