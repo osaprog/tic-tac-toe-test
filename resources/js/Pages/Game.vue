@@ -12,6 +12,7 @@
                 {{ cell }}
             </div>
         </div>
+        <button @click="resetGame" class="reset-button">Reset Game</button>        
     </div>
 </template>
 
@@ -92,6 +93,18 @@ export default {
 
             }
         },
+        resetGame() {
+            // Reset the game state
+            Inertia.post(`/games/1/reset`, {}, {
+                onSuccess: (response) => {
+                    // Reset local state after successful response
+                    this.board = Array(9).fill(null);
+                    this.turn = 'X'; // Reset to starting player
+                    this.winner = null; // Reset winner
+                },
+                preserveState: false, // Ensure state is preserved if you have additional props
+            });
+        },
     },
 };
 </script>
@@ -111,5 +124,10 @@ export default {
     border: 1px solid black;
     font-size: 2rem;
     cursor: pointer;
+}
+.reset-button {
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 1rem;
 }
 </style>
